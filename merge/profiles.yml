@@ -1,0 +1,12 @@
+merge:
+  outputs:
+    one:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: merge
+      pass: example
+      database: merge
+      schema: merge
+
+  target: one
